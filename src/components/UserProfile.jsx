@@ -54,7 +54,7 @@ const UserProfile = () => {
                 </div>
             </section></> : <h2 style={{'text-align' : 'center'}}>Loading Profile Data...</h2>}
            
-            <h1 style={{'text-align' : 'center', 'font-weight' : 'lighter'}}>Posts</h1>
+            <h1>Posts</h1>
  
             { !isLoading ? <section className='postContainer'>
                 {posts.map(post => <Post key={post.id} id={post.id} postTitle={post.title} postContent={post.body}/>)}
