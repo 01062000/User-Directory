@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.appHeader{
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userListContainer{
+  width: 100vw;
+  min-height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.userCard{
+  width: 90vw;
+  min-height: 15vh;
+  border: 1px solid gray;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+.userCard h2{
+  flex: 0.5;
+}
+.userCard:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 15px gray;
+}
+.profileHeader{
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profileInfo{
+  width: 85vw;
+  min-height: 20vh;
+  border: 2px solid gray;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ 
+.postContainer{
+  width: 100vw;
+  min-height: 200vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ 
+.postCard{
+  cursor: pointer;
+  width: 30vw;
+  min-height: 40vh;
+  border: 2px solid gray;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.postCard:hover{
+  box-shadow: 0px 0px 15px gray;
+}
+.postCard h2{
+  text-align: center;
+  font-size: 20px;
+}
+.postCard p{
+  text-align: center;
+  font-size: 14px;
+}
