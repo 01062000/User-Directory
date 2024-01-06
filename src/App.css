@@ -91,6 +91,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .profileHeader{
+    height: 30vh;
+    flex-direction: column;
+  }
   .postContainer{
     flex-direction: column;
     gap: 20px;
@@ -98,13 +102,25 @@
   .postCard{
     width: 60vw;
   }
+  .profileInfo{
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 400px) {
+  .profileHeader{
+    height: 30vh;
+    flex-direction: column;
+  }
   .postContainer{
     
   }
   .postCard{
     width: 80vw;
+  }
+  .profileInfo{
+    flex-direction: column;
+    text-align: center;
   }
 }
