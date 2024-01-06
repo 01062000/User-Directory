@@ -91,6 +91,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .appHeader{
+    font-size: 14px;
+  }
   .profileHeader{
     height: 30vh;
     flex-direction: column;
@@ -109,6 +112,9 @@
 }
 
 @media only screen and (max-width: 400px) {
+  .appHeader{
+    font-size: 12px;
+  }
   .profileHeader{
     height: 30vh;
     flex-direction: column;

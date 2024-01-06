@@ -48,7 +48,7 @@ const Clock = () => {
                 {countries.map((country, index) => <option key={index} value={country}>{country}</option>)}
             </select>
  
-            <p>{timezone?.getHours()} : {timezone?.getMinutes()} : {timezone?.getSeconds()}</p>
+            <p>{timezone?.getHours()} : {timezone?.getMinutes()} : {timezone?.getSeconds()} {timezone?.getHours() >= 12 ? 'PM' : 'AM'}</p>
         </>
     )
 }
